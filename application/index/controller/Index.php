@@ -126,8 +126,7 @@ class Index extends Controller
         $html = '';
         foreach($data as $k => $v)
         {
-            if($v['pid'] == $pId)
-            {        //父亲找到儿子
+            if ($v['pid'] == $pId) {        //父亲找到儿子 哈哈哈
                 $html .= "<li>".$v['title'];
                 $html .=$this-> getTrees($data, $v['area_id']);
                 $html = $html."</li>";
