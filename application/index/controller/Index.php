@@ -144,5 +144,10 @@ class Index extends Controller
         echo $tree;
     }
 
+    public function zhx()
+    {
+
+    }
+
 
 }
