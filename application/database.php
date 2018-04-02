@@ -20,7 +20,7 @@ return [
 //    'username'        => 'jisuyue',
 //    // 密码
 //    'password'        => 'EGGRRWF3W4232',
-    'hostname'        => '127.0.0.1',
+    'hostname' => '127.0.0.1222',
     // 数据库名
     'database'        => 'tp5',
     // 用户名
