@@ -13,6 +13,7 @@ use Endroid\QrCode\ErrorCorrectionLevel;
 use Endroid\QrCode\LabelAlignment;
 use Endroid\QrCode\QrCode;
 use Symfony\Component\HttpFoundation\Response;
+use think\Request;
 
 class Index extends Controller
 {
@@ -467,31 +468,31 @@ class Index extends Controller
 
         echo "订单";
 
-        $map['firstSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-01-01', '2018-01-31'])->where('status', 3)->sum('order_pay');
-        $map['firstCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-01-01', '2018-01-31'])->where('status', 3)->count();
+        $map['firstSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-01-01', '2018-02-01'])->where('status', 3)->sum('order_pay');
+        $map['firstCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-01-01', '2018-02-01'])->where('status', 3)->count();
 
-        $map['secondSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-02-01', '2018-02-28'])->where('status', 3)->sum('order_pay');
-        $map['secondCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-02-01', '2018-02-28'])->where('status', 3)->count();
+        $map['secondSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-02-01', '2018-03-01'])->where('status', 3)->sum('order_pay');
+        $map['secondCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-02-01', '2018-03-01'])->where('status', 3)->count();
 
-        $map['threeSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-03-01', '2018-03-31'])->where('status', 3)->sum('order_pay');
-        $map['threeCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-03-01', '2018-03-31'])->where('status', 3)->count();
+        $map['threeSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-03-01', '2018-04-01'])->where('status', 3)->sum('order_pay');
+        $map['threeCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-03-01', '2018-04-01'])->where('status', 3)->count();
 
-        $map['fourSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-19'])->where('status', 3)->sum('order_pay');
-        $map['fourCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-19'])->where('status', 3)->count();
+        $map['fourSum'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-20'])->where('status', 3)->sum('order_pay');
+        $map['fourCount'] = Db::name('order_list')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-20'])->where('status', 3)->count();
         dump($map);
 
 
         echo "充值";
 
-        $cash['firstSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-01-01', '2018-01-31'])->where('status', 1)->sum('total_amount');
-        $cash['firstCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-01-01', '2018-01-31'])->where('status', 1)->count();
+        $cash['firstSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-01-01', '2018-02-01'])->where('status', 1)->sum('total_amount');
+        $cash['firstCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-01-01', '2018-02-01'])->where('status', 1)->count();
 
-        $cash['secondSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-02-01', '2018-02-28'])->where('status', 1)->sum('total_amount');
-        $cash['secondCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-02-01', '2018-02-28'])->where('status', 1)->count();
-        $cash['threeSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-03-01', '2018-03-31'])->where('status', 1)->sum('total_amount');
-        $cash['threeCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-03-01', '2018-03-31'])->where('status', 1)->count();
-        $cash['fourSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-19'])->where('status', 1)->sum('total_amount');
-        $cash['fourCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-19'])->where('status', 1)->count();
+        $cash['secondSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-02-01', '2018-03-01'])->where('status', 1)->sum('total_amount');
+        $cash['secondCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-02-01', '2018-03-01'])->where('status', 1)->count();
+        $cash['threeSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-03-01', '2018-04-01'])->where('status', 1)->sum('total_amount');
+        $cash['threeCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-03-01', '2018-04-01'])->where('status', 1)->count();
+        $cash['fourSum'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-20'])->where('status', 1)->sum('total_amount');
+        $cash['fourCount'] = Db::name('user_pay')->whereTime('c_time', 'between', ['2018-04-01', '2018-04-20'])->where('status', 1)->count();
         dump($cash);
 //    echo  '充值';
         $one = '30,50,50,30,30,200,30,100,50,30,30,30,30,30,30,50,30,30,30,30,30,30,30,30,30,30,30,30,30,30,50,30,30,30,30,30,50,30,30,30,30,30,30,30,30,30,30,100,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,50,50,30,30,30,50,30,30,50,30,30,30,30,30,30,30,30,30,30,30,30,30,30,30,50,30,50,30,30,30,50,30,30,30,50,30,50,30,50,30,30,30,30,30,50,30,30,30,50,30,50,30,30,30,30,30,30,30,30,30,50,30,30,30,30,50,30,30,30,30,30,30,50,30,30,30,30,30,30';
@@ -535,6 +536,92 @@ class Index extends Controller
 //
 //    echo count($pay2Vod).'------'.count($pay3Vod).'------'.count($pay4Vod).'<br>';
 //    echo count($pay2Jsy).'------'.count($pay3Jsy).'------'.count($pay4Jsy);
+    }
+
+
+//    查询数据库的手机号,每次1000
+    public function getPhone(Request $request)
+    {
+
+        header('Content-Type: text/html; charset=utf-8');  //设置网页编码方式，最好是utf-8
+        vendor("PHPExcel.PHPExcel");
+        import("vender.PHPExcel.IOFactory");      //路径根据自己实际项目的路径进行设置
+
+        $page = $request->param('page');
+        $userCount = Db::name('user')->count('id');
+        $totalPage = ceil($userCount / 1000);
+        if ($page > $totalPage) {
+            return '查询出错';
+        }
+        if ($page < 1) {
+            $page = 1;
+        }
+        $start = ($page - 1) * 1000;
+        $list = Db::name('user')->field('username,mobile')->limit($start, 1000)->select();
+
+        $name = 'jsyPhone_' . $page;
+        error_reporting(E_ALL);
+        $objPHPExcel = new \PHPExcel();
+
+        $objPHPExcel->getActiveSheet()
+            ->setCellValue('A1', '用户名')
+            ->setCellValue('B1', '手机号');
+
+
+        foreach ($list as $k => $v) {
+            $num = $k + 2;
+            $objPHPExcel->setActiveSheetIndex(0)
+                ->setCellValue('A' . $num, $v['username'])
+                ->setCellValue('B' . $num, $v['mobile']);
+        }
+//        设置高度
+        $objPHPExcel->getActiveSheet()->getDefaultRowDimension()->setRowHeight(15);
+
+//        设置宽度
+        $objPHPExcel->getActiveSheet()->getColumnDimension('B')->setWidth(25);
+
+        $objPHPExcel->setActiveSheetIndex(0);
+        header('Content-Type: application/vnd.ms-excel');
+        header('Content-Disposition: attachment;filename="' . $name . '.xls"');
+        header('Cache-Control: max-age=0');
+        $objWriter = \PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+        $objWriter->save('php://output');
+        exit;
+    }
+
+//    chartx图表库
+    public function chart()
+    {
+        if (\request()->isPost()) {
+            $page = input('page') ? input('page') : 1;
+            $pageSize = input('limit') ? input('limit') : config('pageSize');
+//            提现信息
+            $list1 = db::name('user_cash')
+                ->field('FROM_UNIXTIME(c_time, "%Y-%m") c_time,sum(amount) amount,count(*) cnt')
+                ->where('status', 2)
+                ->group('FROM_UNIXTIME(c_time, "%Y-%m")')
+                ->paginate(array('list_rows' => $pageSize, 'page' => $page))
+                ->toArray();
+//            充值信息
+            $list2 = db::name('user_pay')
+                ->field('FROM_UNIXTIME(c_time, "%Y-%m") c_time,sum(total_amount) total_amount,count(*) cnt')
+                ->where('status', 1)
+                ->group('FROM_UNIXTIME(c_time, "%Y-%m")')
+                ->paginate(array('list_rows' => $pageSize, 'page' => $page))
+                ->toArray();
+            $list = [];
+            foreach ($list1['data'] as $key => $datum) {
+                $list[$key][] = $datum["c_time"];
+                $list[$key][] = $datum["amount"];
+                //$list[$key]["tx_count"]= $datum["cnt"];
+                $list[$key][] = $list2['data'][$key]['total_amount'];
+                //$list[$key]["cz_count"] = $list2['data'][$key]['cnt'];
+            }
+
+            return $result = ['code' => 0, 'msg' => '获取成功!', 'data' => $list];
+
+        }
+        return $this->fetch('chart');
     }
 
 }

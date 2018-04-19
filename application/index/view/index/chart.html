@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 准备requirejs来做模块加载器 -->
+    <script src="http://requirejs.org/docs/release/2.1.20/minified/require.js"></script>
+    <!-- Chartx图表库文件引入，这里已1.9.21的cdn版本为例 -->
+    <script src="http://g.alicdn.com//thx/charts/1.9.51/chartx/index-min.js"></script>
+    <script src="__STATIC__/js/jquery.js"></script>
+
+</head>
+<body>
+<div id="chartTest" style="width:600px;height:300px;"></div>
+<script>
+    $.post({
+        url: "{:url('Index/chart')}",
+        data: {},
+        dataType: "json",
+        success: function (result) {
+            console.log(result.data);
+            var datas = [
+                ["c_time", "chongzhi", "tixian"],
+            ];
+            var data = datas.concat(result.data);
+            console.log(data);
+            var options = {
+                yAxis: {
+                    field: ["chongzhi", "tixian"]
+                },
+                xAxis: {
+                    field: "c_time"
+                }
+            };
+            Chartx.line("chartTest", data, options);
+        },
+        error: function (errmsg) {
+            alert("请求数据出错！" + errmsg);
+        }
+    });
+
+</script>
+</body>
+</html>
