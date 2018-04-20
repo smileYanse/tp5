@@ -589,7 +589,7 @@ class Index extends Controller
         exit;
     }
 
-//    chartx图表库
+//    chartx图表库  充值提现情况
     public function chart()
     {
         if (\request()->isPost()) {
@@ -622,6 +622,33 @@ class Index extends Controller
 
         }
         return $this->fetch('chart');
+    }
+
+
+    public function halfYear()
+    {
+        if (request()->isPost()) {
+            $key = input('post.key');
+            $page = input('page') ? input('page') : 1;
+            $pageSize = input('limit') ? input('limit') : config('pageSize');
+            $list = db::name('order_list')
+                ->field('FROM_UNIXTIME(c_time, "%Y-%m") c_time,sum(order_pay) order_pay,count(*) cnt')
+                ->where('status', 3)
+                ->group('FROM_UNIXTIME(c_time, "%Y-%m")')
+                ->whereTime('c_time', '-6 months')
+                ->paginate(array('list_rows' => $pageSize, 'page' => $page))
+                ->toArray();
+            $res = [];
+            foreach ($list['data'] as $key => $datum) {
+                $res[$key][] = $datum["c_time"];
+                $res[$key][] = $datum["order_pay"];
+                $res[$key][] = $datum["cnt"];
+            }
+
+            return $result = ['code' => 0, 'msg' => '获取成功!', 'data' => $res, 'count' => $list['total'], 'rel' => 1];
+        }
+
+        return $this->fetch();
     }
 
 }

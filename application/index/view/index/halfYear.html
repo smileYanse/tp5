@@ -14,27 +14,26 @@
 <div id="chartTest" style="width:600px;height:300px;"></div>
 <script>
     $.post({
-        url: "{:url('Index/chart')}",
+        url: "{:url('Index/halfYear')}",
         data: {},
         dataType: "json",
         success: function (result) {
-            console.log(result.data);
+            // console.log(result);
             var datas = [
-                ["c_time", "tixian", "chongzhi"]
+                ["c_time", "order_pay", "cnt"]
             ];
             var data = datas.concat(result.data);
             console.log(data);
             var options = {
                 yAxis: {
-                    field: ["tixian", "chongzhi"]
+                    field: ["order_pay", "cnt"]
                 },
                 xAxis: {
                     field: "c_time"
                 },
                 tips: {
-                    prefix: ['提现', '充值']
+                    prefix: ['订单总额', '订单数目']
                 }
-
             };
             Chartx.line("chartTest", data, options);
         },

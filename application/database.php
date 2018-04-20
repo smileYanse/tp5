@@ -20,20 +20,24 @@ return [
 //      'username'        => 'jisuyue',
 //      // 密码
 //      'password'        => 'EGGRRWF3W4232',
-//    'hostname' => '127.0.0.1',
-//      // 数据库名
-//      'database'        => 'tp5',
-//      // 用户名
-//      'username'        => 'root',
-//      // 密码
-//     'password'        => '123456',
-    'hostname' => '120.55.52.105',
+
+
+    'hostname' => '127.0.0.1',
     // 数据库名
-    'database' => 'api1101_jisuyue',
+    'database' => 'tp5',
     // 用户名
-    'username' => 'api1101_jisuyue',
+    'username' => 'root',
     // 密码
-    'password' => 'EPDKMhxGwD',
+    'password' => '123456',
+
+
+    /*    'hostname' => '120.55.52.105',
+        // 数据库名
+        'database' => 'api1101_jisuyue',
+        // 用户名
+        'username' => 'api1101_jisuyue',
+        // 密码
+        'password' => 'EPDKMhxGwD',*/
     // 端口
     'hostport'        => '',
     // 连接dsn
