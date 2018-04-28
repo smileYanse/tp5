@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d73ce702-c104-4b3a-b59c-6d84b4066a95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/application/index/view/index/halfYear.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/index-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/static/js/require.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/index/chart.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/index/chart.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,44 +31,50 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="638" column="27" lean-forward="true" selection-start-line="638" selection-start-column="27" selection-end-line="638" selection-end-column="27" />
+            <state relative-caret-position="871">
+              <caret line="203" column="45" lean-forward="true" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
               <folding>
-                <element signature="e#41#62#0#PHP" expanded="true" />
-                <element signature="e#4631#4912#0#PHP" />
-                <element signature="e#10348#11270#0#PHP" />
-                <element signature="e#11319#12084#0#PHP" />
-                <element signature="e#13955#15888#0#PHP" />
-                <element signature="e#31346#31381#0#PHP" />
-                <element signature="e#18407#19053#0#PHP" />
-                <element signature="e#32899#48934#0#PHP" />
-                <element signature="e#48966#49010#0#PHP" />
+                <element signature="e#2175#2224#0#PHP" />
+                <element signature="e#2175#2312#0#PHP" />
+                <element signature="e#2175#2358#0#PHP" />
+                <element signature="e#2175#2438#0#PHP" />
+                <element signature="e#2175#2524#0#PHP" />
+                <element signature="e#2175#2554#0#PHP" />
+                <element signature="e#2175#2589#0#PHP" />
+                <element signature="e#5020#7039#0#PHP" />
+                <element signature="e#7179#9218#0#PHP" />
+                <element signature="e#28843#29249#0#PHP" />
+                <element signature="e#49735#49805#0#PHP" />
+                <element signature="e#49735#49845#0#PHP" />
+                <element signature="e#49926#50021#0#PHP" />
+                <element signature="e#49926#50078#0#PHP" />
+                <element signature="e#50923#51041#0#PHP" />
+                <element signature="e#50923#51078#0#PHP" />
+                <element signature="e#50923#51136#0#PHP" />
+                <element signature="e#50923#51213#0#PHP" />
+                <element signature="e#51283#51412#0#PHP" />
+                <element signature="e#51283#51449#0#PHP" />
+                <element signature="e#51283#51507#0#PHP" />
+                <element signature="e#51283#51584#0#PHP" />
+                <element signature="e#52410#52535#0#PHP" />
+                <element signature="e#52410#52572#0#PHP" />
+                <element signature="e#52410#52630#0#PHP" />
+                <element signature="e#52410#52681#0#PHP" />
+                <element signature="e#52410#52758#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="halfYear.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/index/view/index/halfYear.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="252">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -141,9 +143,9 @@
         <option value="$PROJECT_DIR$/application/config.php" />
         <option value="$PROJECT_DIR$/public/static/js/index-min.js" />
         <option value="$PROJECT_DIR$/application/index/view/index/chart.html" />
-        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
         <option value="$PROJECT_DIR$/application/index/view/index/halfYear.html" />
         <option value="$PROJECT_DIR$/application/database.php" />
+        <option value="$PROJECT_DIR$/application/index/controller/Index.php" />
       </list>
     </option>
   </component>
@@ -186,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,21 +217,6 @@
             <path>
               <item name="tp5" type="b2602c69:ProjectViewProjectNode" />
               <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="tp5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -253,7 +241,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,6 +384,8 @@
       <workItem from="1523530330131" duration="3370000" />
       <workItem from="1523894611905" duration="36217000" />
       <workItem from="1524015977341" duration="40035000" />
+      <workItem from="1524219942250" duration="178000" />
+      <workItem from="1524634102265" duration="2913000" />
     </task>
     <task id="LOCAL-00001" summary="数据库文件">
       <created>1522660061001</created>
@@ -447,11 +436,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524136106612</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="图表分析">
+      <created>1524219961357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524219961357</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202154000" />
+    <option name="totallyTimeSpent" value="205245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,18 +462,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32900432" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32394367" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32394367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36836404" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -500,7 +496,8 @@
     <MESSAGE value="演示数据" />
     <MESSAGE value="演示数据改正" />
     <MESSAGE value="充值提现图表分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="充值提现图表分析" />
+    <MESSAGE value="图表分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="图表分析" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -509,6 +506,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extend/rongyun/Wordfilter.php" />
     <entry file="file://$PROJECT_DIR$/extend/rongyun/Push.php" />
     <entry file="file://$PROJECT_DIR$/extend/rongyun/Message.php" />
@@ -716,23 +720,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/FlashFXP/Cache/~flashfxp/BB89EAF8_view.tmp/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/FlashFXP/Cache/~flashfxp/2400EE17_view.tmp/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/PHPExcel/PHPExcel/Cell/DataType.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/Program Files (x86)/FlashFXP/Cache/~flashfxp/BB89EAF8_view.tmp/index.php" />
+    <entry file="file://D:/Program Files (x86)/FlashFXP/Cache/~flashfxp/2400EE17_view.tmp/index.php" />
     <entry file="file://$PROJECT_DIR$/public/static/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -772,44 +761,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="638" column="27" lean-forward="true" selection-start-line="638" selection-start-column="27" selection-end-line="638" selection-end-column="27" />
-          <folding>
-            <element signature="e#41#62#0#PHP" expanded="true" />
-            <element signature="e#4631#4912#0#PHP" />
-            <element signature="e#10348#11270#0#PHP" />
-            <element signature="e#11319#12084#0#PHP" />
-            <element signature="e#13955#15888#0#PHP" />
-            <element signature="e#31346#31381#0#PHP" />
-            <element signature="e#18407#19053#0#PHP" />
-            <element signature="e#32899#48934#0#PHP" />
-            <element signature="e#48966#49010#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/index/halfYear.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="29" column="11" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="203" column="45" lean-forward="true" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
+          <folding>
+            <element signature="e#2175#2224#0#PHP" />
+            <element signature="e#2175#2312#0#PHP" />
+            <element signature="e#2175#2358#0#PHP" />
+            <element signature="e#2175#2438#0#PHP" />
+            <element signature="e#2175#2524#0#PHP" />
+            <element signature="e#2175#2554#0#PHP" />
+            <element signature="e#2175#2589#0#PHP" />
+            <element signature="e#5020#7039#0#PHP" />
+            <element signature="e#7179#9218#0#PHP" />
+            <element signature="e#28843#29249#0#PHP" />
+            <element signature="e#49735#49805#0#PHP" />
+            <element signature="e#49735#49845#0#PHP" />
+            <element signature="e#49926#50021#0#PHP" />
+            <element signature="e#49926#50078#0#PHP" />
+            <element signature="e#50923#51041#0#PHP" />
+            <element signature="e#50923#51078#0#PHP" />
+            <element signature="e#50923#51136#0#PHP" />
+            <element signature="e#50923#51213#0#PHP" />
+            <element signature="e#51283#51412#0#PHP" />
+            <element signature="e#51283#51449#0#PHP" />
+            <element signature="e#51283#51507#0#PHP" />
+            <element signature="e#51283#51584#0#PHP" />
+            <element signature="e#52410#52535#0#PHP" />
+            <element signature="e#52410#52572#0#PHP" />
+            <element signature="e#52410#52630#0#PHP" />
+            <element signature="e#52410#52681#0#PHP" />
+            <element signature="e#52410#52758#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>

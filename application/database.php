@@ -31,7 +31,7 @@ return [
     'password' => '123456',
 
 
-    /*    'hostname' => '120.55.52.105',
+    /*   'hostname' => '120.55.52.105',
         // 数据库名
         'database' => 'api1101_jisuyue',
         // 用户名
