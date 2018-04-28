@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d73ce702-c104-4b3a-b59c-6d84b4066a95" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,41 +29,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="871">
-              <caret line="203" column="45" lean-forward="true" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
-              <folding>
-                <element signature="e#2175#2224#0#PHP" />
-                <element signature="e#2175#2312#0#PHP" />
-                <element signature="e#2175#2358#0#PHP" />
-                <element signature="e#2175#2438#0#PHP" />
-                <element signature="e#2175#2524#0#PHP" />
-                <element signature="e#2175#2554#0#PHP" />
-                <element signature="e#2175#2589#0#PHP" />
-                <element signature="e#5020#7039#0#PHP" />
-                <element signature="e#7179#9218#0#PHP" />
-                <element signature="e#28843#29249#0#PHP" />
-                <element signature="e#49735#49805#0#PHP" />
-                <element signature="e#49735#49845#0#PHP" />
-                <element signature="e#49926#50021#0#PHP" />
-                <element signature="e#49926#50078#0#PHP" />
-                <element signature="e#50923#51041#0#PHP" />
-                <element signature="e#50923#51078#0#PHP" />
-                <element signature="e#50923#51136#0#PHP" />
-                <element signature="e#50923#51213#0#PHP" />
-                <element signature="e#51283#51412#0#PHP" />
-                <element signature="e#51283#51449#0#PHP" />
-                <element signature="e#51283#51507#0#PHP" />
-                <element signature="e#51283#51584#0#PHP" />
-                <element signature="e#52410#52535#0#PHP" />
-                <element signature="e#52410#52572#0#PHP" />
-                <element signature="e#52410#52630#0#PHP" />
-                <element signature="e#52410#52681#0#PHP" />
-                <element signature="e#52410#52758#0#PHP" />
-              </folding>
+            <state relative-caret-position="662">
+              <caret line="195" column="72" selection-start-line="195" selection-start-column="72" selection-end-line="195" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -73,8 +42,8 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="504">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -188,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,12 +209,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jisuyue_admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -386,6 +355,7 @@
       <workItem from="1524015977341" duration="40035000" />
       <workItem from="1524219942250" duration="178000" />
       <workItem from="1524634102265" duration="2913000" />
+      <workItem from="1524904113397" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="数据库文件">
       <created>1522660061001</created>
@@ -443,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524219961357</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="数据测试">
+      <created>1524904141874</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524904141874</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205245000" />
+    <option name="totallyTimeSpent" value="205488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +439,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938166" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32900432" />
@@ -497,7 +474,8 @@
     <MESSAGE value="演示数据改正" />
     <MESSAGE value="充值提现图表分析" />
     <MESSAGE value="图表分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="图表分析" />
+    <MESSAGE value="数据测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据测试" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -773,44 +751,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="504">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="871">
-          <caret line="203" column="45" lean-forward="true" selection-start-line="203" selection-start-column="45" selection-end-line="203" selection-end-column="45" />
-          <folding>
-            <element signature="e#2175#2224#0#PHP" />
-            <element signature="e#2175#2312#0#PHP" />
-            <element signature="e#2175#2358#0#PHP" />
-            <element signature="e#2175#2438#0#PHP" />
-            <element signature="e#2175#2524#0#PHP" />
-            <element signature="e#2175#2554#0#PHP" />
-            <element signature="e#2175#2589#0#PHP" />
-            <element signature="e#5020#7039#0#PHP" />
-            <element signature="e#7179#9218#0#PHP" />
-            <element signature="e#28843#29249#0#PHP" />
-            <element signature="e#49735#49805#0#PHP" />
-            <element signature="e#49735#49845#0#PHP" />
-            <element signature="e#49926#50021#0#PHP" />
-            <element signature="e#49926#50078#0#PHP" />
-            <element signature="e#50923#51041#0#PHP" />
-            <element signature="e#50923#51078#0#PHP" />
-            <element signature="e#50923#51136#0#PHP" />
-            <element signature="e#50923#51213#0#PHP" />
-            <element signature="e#51283#51412#0#PHP" />
-            <element signature="e#51283#51449#0#PHP" />
-            <element signature="e#51283#51507#0#PHP" />
-            <element signature="e#51283#51584#0#PHP" />
-            <element signature="e#52410#52535#0#PHP" />
-            <element signature="e#52410#52572#0#PHP" />
-            <element signature="e#52410#52630#0#PHP" />
-            <element signature="e#52410#52681#0#PHP" />
-            <element signature="e#52410#52758#0#PHP" />
-          </folding>
+        <state relative-caret-position="662">
+          <caret line="195" column="72" selection-start-line="195" selection-start-column="72" selection-end-line="195" selection-end-column="72" />
         </state>
       </provider>
     </entry>
